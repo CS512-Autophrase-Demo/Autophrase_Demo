@@ -12,5 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::resource('text','TextController');
+
+Route::resource('ctrltest','TestController');
+
+Route::get('/hello',function(){
+    return "中文测试!";
 });
