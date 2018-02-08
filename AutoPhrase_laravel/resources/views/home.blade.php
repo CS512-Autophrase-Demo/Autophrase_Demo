@@ -36,10 +36,10 @@
                         <a class="nav-link" href="/text">Text</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/ctrltest">Upload</a>
+                        <a class="nav-link" href="/upload">Upload</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="/ctrltest">About</a>
+                        <a class="nav-link disabled" href="/">About</a>
                     </li>
                 </ul>
             </div>

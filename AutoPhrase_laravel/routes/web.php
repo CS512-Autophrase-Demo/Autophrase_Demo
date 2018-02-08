@@ -21,7 +21,7 @@ Route::get('/home', function () {
 
 Route::resource('text','TextController');
 
-Route::resource('ctrltest','TestController');
+Route::resource('upload','UploadController');
 
 Route::get('/hello',function(){
     return "中文测试!";
